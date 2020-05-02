@@ -9,12 +9,12 @@ body {
     font-family: Andale Mono;
     font-size: 80px;
     position: absolute;
-    top: 5000px;
+    top: 50000px;
 }
 
 h1 {
     font-family: Andale Mono;
-    font-size: 1em;
+    font-size: 5em;
     text-align: center;
 }
 h3 {

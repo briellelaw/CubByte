@@ -4,18 +4,24 @@
 
 h1 {
     font-family: Andale Mono;
+    font-size: 40px;
+    position: fixed;
+    left: 100px;
 }
-p1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h3 {
+    font-family: Andale Mono;
+    font-size: 20px;
+    position: fixed;
+    leftL 50px;
 }
 
-img {
+/* img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
-.topnav {
+/* .topnav {
     background-color: rgb(140, 150, 135);
     overflow: hidden;
 }
@@ -37,4 +43,4 @@ img {
 .topnav a.active {
     background-color: rgb(150, 175, 151);
     color: white;
-} 
+}  */

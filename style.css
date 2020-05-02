@@ -1,12 +1,11 @@
 
 
-
 body {
     background-color: rgb(138, 164, 168);
 }
 
 .title {
-    font-family: Lato;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
 }
 

@@ -5,6 +5,13 @@ body {
     background-color: rgb(138, 164, 168);
 }
 
+#title h1 {
+    font-family: Andale Mono;
+    font-size: 80px;
+    position: absolute;
+    top: 500px;
+}
+
 h1 {
     font-family: Andale Mono;
     font-size: 40px;

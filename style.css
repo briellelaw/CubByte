@@ -5,11 +5,11 @@ body {
     background-color: rgb(138, 164, 168);
 }
 
-/* .title {
+.title {
     font-family: Andale Mono;
     font-size: 80px;
-    /* position: fixed;
-    top: 50000px; */
+    position: fixed;
+    top: 50000px;
 }
 
 h1 {

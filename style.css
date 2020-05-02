@@ -1,25 +1,26 @@
 
 
 
+body {
+    background-color: rgb(138, 164, 168);
+}
 
 h1 {
     font-family: Andale Mono;
     font-size: 40px;
     position: absolute;
-    top: 50%;
-    left: 50%
+    top: 500px;
+    left: 500px;
 }
 h3 {
     font-family: Andale Mono;
     font-size: 20px;
     position: fixed;
-    top: 50%;
-    left: 50%;
+    top: 800;
+    left: 400;
 }
 
-body {
-    background-color: rgb(138, 164, 168);
-}
+
 
 /* img {
     display: block;

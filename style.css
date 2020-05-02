@@ -5,15 +5,20 @@
     font-size: 40px;
 }
 
+body {
+    background-color: rgb(143, 163, 162);
+}
+
 h1 {
     margin: auto;
     font-family: Andale Mono;
     font-size: 25px;
 }
-
-body {
-    background-color: rgb(143, 163, 162);
+h3 {
+    font-family: Andale Mono;
 }
+
+
 
 .topnav {
     background-color: rgb(140, 150, 135);

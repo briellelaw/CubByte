@@ -8,6 +8,9 @@ body {
     font-family: 'Roboto';
     font-size: 40px;
 }
+.titleColour {
+    color: rgb(126, 172, 132);
+}
 
 h1 {
     font-size: 5em;

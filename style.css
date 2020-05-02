@@ -1,52 +1,8 @@
 
-#header {
-    margin: auto;
-    font-family: Andale Mono;
-    font-size: 40px;
-}
 
-body {
-    background-color: rgb(143, 163, 162);
-}
+
 
 h1 {
-    margin: auto;
-    font-family: Andale Mono;
-    font-size: 25px;
-}
-h3 {
-    font-family: Andale Mono;
-}
-
-
-
-.topnav {
-    background-color: rgb(140, 150, 135);
-    overflow: hidden;
-}
-
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-  
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.topnav a.active {
-    background-color: rgb(150, 175, 151);
-    color: white;
-}
-
-
-
-/* h1 {
     font-family: Andale Mono;
 }
 p1 {
@@ -81,4 +37,4 @@ img {
 .topnav a.active {
     background-color: rgb(150, 175, 151);
     color: white;
-} */
+} 

@@ -8,16 +8,12 @@ body {
 h1 {
     font-family: Andale Mono;
     font-size: 40px;
-    position: absolute;
-    top: 500px;
-    left: 500px;
+    text-align: center;
 }
 h3 {
     font-family: Andale Mono;
     font-size: 20px;
-    position: fixed;
-    top: 800;
-    left: 400;
+    text-align: center;
 }
 
 

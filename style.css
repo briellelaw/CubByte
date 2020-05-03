@@ -1,6 +1,6 @@
 
 
-body {
+#welcome {
     background-color: rgb(138, 164, 168);
 }
 
@@ -23,7 +23,7 @@ body {
     color: rgb(240, 247, 241);
 }
 
-h1 {
+#Title {
     z-index: 100;
     position: absolute;
     font-family: 'Roboto';
@@ -32,7 +32,7 @@ h1 {
     left: 50%;
 }
 
-h4 {
+#Tag {
     z-index: 100;
     position: absolute;
     font-family: 'Roboto Mono';
@@ -57,7 +57,7 @@ h4 {
     float: left;
     color: rgb(62, 64, 65);
     text-align: center;
-    padding: 20px 34px;
+    padding: 40px;
     text-decoration: none;
     font-size: 17px;
 
@@ -72,3 +72,14 @@ h4 {
     background-color: rgb(79, 140, 158);
     color: white;
 }  
+
+
+#skeleton {
+    background-color: white;
+}
+
+#section1 {
+    font-family: 'Roboto';
+    font-size: 80px;
+    left: 20%;
+}

@@ -27,9 +27,8 @@ h1 {
     position: absolute;
     font-family: 'Roboto Mono';
     font-size: 100px;
-    text-align: center;
-    top: 70px;
-    left: 150px;
+    top: 100px;
+    left: 550px;
 }
 
 h4 {
@@ -37,9 +36,8 @@ h4 {
     position: absolute;
     font-family: 'Roboto Mono';
     font-size: 50px;
-    text-align: center;
-    top: 90px;
-    left: 100px;
+    top: 500px;
+    left: 500px;
 }
 
 

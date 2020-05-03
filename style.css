@@ -47,17 +47,17 @@ h4 {
     overflow: hidden;
     position: absolute;
     top: 800px;
-    left: 35%;
+    left: 15%;
     font-family: 'Roboto Mono';
     font-weight: 500;
-    width: 70%;
+    width: 60%;
 }
 
 .navBar a {
     float: left;
     color: rgb(62, 64, 65);
     text-align: center;
-    padding: 20px 24px;
+    padding: 20px 34px;
     text-decoration: none;
     font-size: 17px;
 

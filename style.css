@@ -2,7 +2,6 @@
 
 body {
     background-color: rgb(138, 164, 168);
-    background: url("finalBear.png") rbg(0,0,0,0);
 }
 
 .titlePage {
@@ -11,18 +10,19 @@ body {
 }
 
 .gradientBear {
+    background: url("finalBear.png") rbg(0,0,0,0);
     position: absolute;
     top: 0;
     left: 0;
 }
 
 .tilePage .titleName {
-    z-index: 100;
+    z-index: 10;
     font-family: 'Roboto';
     font-size: 40px;
     position: abolute;
-    top: 50%;
-    left: 50%;
+    /* top: 50%;
+    left: 50%; */
 }
 .titleColour {
     color: rgb(240, 247, 241);
@@ -32,16 +32,16 @@ h1 {
     font-family: 'Roboto Mono';
     font-size: 5em;
     text-align: center;
-    margin: 1;
-    padding: 1;
+    /* margin: 1;
+    padding: 1; */
 }
 
 h4 {
     font-family: 'Roboto Mono';
     font-size: 0.5em;
     text-align: center;
-    margin: 1;
-    padding: 1;
+    /* margin: 1;
+    padding: 1; */
 }
 
 

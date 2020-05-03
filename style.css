@@ -13,7 +13,7 @@ body {
     background: url("finalBear.png") rbg(0,0,0,0);
     position: absolute;
     top: 0;
-    left: 0;
+    left: 500;
 }
 
 .tilePage .titleName {
@@ -31,7 +31,7 @@ body {
 h1 {
     font-family: 'Roboto Mono';
     font-size: 5em;
-    /* text-align: center; */
+    text-align: center;
     /* margin: 1;
     padding: 1; */
 }
@@ -39,7 +39,7 @@ h1 {
 h4 {
     font-family: 'Roboto Mono';
     font-size: 0.5em;
-    /* text-align: center; */
+    text-align: center;
     /* margin: 1;
     padding: 1; */
 }

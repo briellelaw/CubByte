@@ -12,6 +12,7 @@ body {
 .gradientBear {
     background: url("finalBear.png") rbg(0,0,0,0);
     position: absolute;
+    display: block;
     top: 0;
     left: 500;
 }

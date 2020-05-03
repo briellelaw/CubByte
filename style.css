@@ -17,33 +17,25 @@ body {
     left: 0;
 }
 
-.tilePage .titleName {
-    z-index: 100;
-    font-family: 'Roboto';
-    font-size: 40px;
-    position: abolute;
-    top: 0;
-    left: 0;
-}
+
 .titleColour {
     color: rgb(240, 247, 241);
 }
 
 h1 {
-    /* font-family: 'Roboto Mono'; */
-    font-size: 5empx;
+    z-index: 100;
+    position: absolute;
+    font-family: 'Roboto Mono';
+    font-size: 100px;
     text-align: center;
-    top: 10px;
-    /* margin: 1;
-    padding: 1; */
+    top: 50%;
 }
 
 h4 {
-    /* font-family: 'Roboto Mono'; */
-    font-size: 0.5em;
+    z-index: 100;
+    font-family: 'Roboto Mono';
+    font-size: 50px;
     text-align: center;
-    /* margin: 1;
-    padding: 1; */
 }
 
 

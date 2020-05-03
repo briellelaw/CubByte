@@ -25,8 +25,8 @@ body {
 h1 {
     z-index: 100;
     position: absolute;
-    font-family: 'Roboto Mono';
-    font-size: 100px;
+    font-family: 'Roboto';
+    font-size: 300px;
     top: 300px;
     left: 700px;
 }
@@ -35,7 +35,7 @@ h4 {
     z-index: 100;
     position: absolute;
     font-family: 'Roboto Mono';
-    font-size: 50px;
+    font-size: 20px;
     top: 500px;
     left: 500px;
 }

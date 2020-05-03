@@ -43,8 +43,11 @@ h4 {
 
 
 .navBar {
-    background-color: rgb(205, 214, 213);
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
+    position: absolute;
+    top: 800px;
+    font-family: 'Roboto Mono'
 }
 
 .navBar a {

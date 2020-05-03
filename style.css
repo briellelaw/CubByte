@@ -4,9 +4,9 @@
     background: linear-gradient(to bottom,rgb(138, 164, 168) 0%, white 50%, #ddd 50%, #ddd 100%);
 } */
 
-/* #welcome {
+#welcome {
     background: rgb(138, 164, 168);
-} */
+}
 
 .titlePage {
     position: absolute;
@@ -61,7 +61,7 @@
     float: left;
     color: rgb(62, 64, 65);
     text-align: center;
-    padding: 20px, 24px;
+    padding: 14px, 16px;
     text-decoration: none;
     font-size: 17px;
 

@@ -49,8 +49,8 @@ h4 {
     top: 800px;
     left: 15%;
     font-family: 'Roboto Mono';
-    font-weight: 500;
-    width: 60%;
+    font-weight: 600;
+    width: 75%;
 }
 
 .navBar a {
@@ -64,7 +64,7 @@ h4 {
 }
   
 .navBar a:hover {
-    background-color: rgb(110, 158, 167);
+    background-color: rgb(235, 218, 162);
     color: black;
 }
 

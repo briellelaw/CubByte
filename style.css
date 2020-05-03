@@ -4,9 +4,9 @@ body {
     background: linear-gradient(to bottom,rgb(138, 164, 168) 0%, white 50%, #ddd 50%, #ddd 100%);
 }
 
-#welcome {
+/* #welcome {
     background: rgb(138, 164, 168);
-}
+} */
 
 .titlePage {
     position: absolute;
@@ -78,9 +78,9 @@ body {
 }  
 
 
-#skeleton {
+/* #skeleton {
     background: white;
-}
+} */
 
 #section1 {
     font-family: 'Roboto';

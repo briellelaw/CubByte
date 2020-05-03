@@ -1,7 +1,7 @@
 
 
 #welcome {
-    background-color: rgb(138, 164, 168);
+    background: rgb(138, 164, 168);
 }
 
 .titlePage {
@@ -57,7 +57,7 @@
     float: left;
     color: rgb(62, 64, 65);
     text-align: center;
-    padding: 20px, 50px;
+    padding: 40px, 60px, 40px, 60px
     text-decoration: none;
     font-size: 17px;
 
@@ -73,15 +73,15 @@
     color: white;
 }  
 
-/* 
+
 #skeleton {
-    background-color: white;
-} */
+    background: white;
+}
 
 #section1 {
     font-family: 'Roboto';
-    font-size: 80px;
-    left: 20%;
+    font-size: 45px;
+    left: 10%;
     position: absolute;
-    top: 830px;
+    top: 860px;
 }

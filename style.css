@@ -29,14 +29,17 @@ h1 {
     font-size: 100px;
     text-align: center;
     top: 70px;
+    left: 150px;
 }
 
 h4 {
     z-index: 100;
+    position: absolute;
     font-family: 'Roboto Mono';
     font-size: 50px;
     text-align: center;
     top: 90px;
+    left: 100px;
 }
 
 

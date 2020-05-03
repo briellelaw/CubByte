@@ -47,8 +47,10 @@ h4 {
     overflow: hidden;
     position: absolute;
     top: 800px;
-    left: 50%;
-    font-family: 'Roboto Mono'
+    left: 35%;
+    font-family: 'Roboto Mono';
+    font-weight: 500;
+    width: 70%;
 }
 
 .navBar a {
@@ -58,6 +60,7 @@ h4 {
     padding: 20px 24px;
     text-decoration: none;
     font-size: 17px;
+
 }
   
 .navBar a:hover {

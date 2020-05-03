@@ -12,7 +12,7 @@ body {
 
 #gradientBear {
     background: url("finalBear.png") rbg(0,0,0,0);
-    position: absolute;
+    position: relative;
     display: block;
     top: 50px;
     left: 0;
@@ -42,33 +42,26 @@ h4 {
 }
 
 
-
-/* img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
-/* .topnav {
-    background-color: rgb(140, 150, 135);
+.navBar {
+    background-color: rgb(205, 214, 213);
     overflow: hidden;
 }
 
-.topnav a {
+.navBar a {
     float: left;
-    color: #f2f2f2;
+    color: rgb(62, 64, 65);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
   
-.topnav a:hover {
-    background-color: #ddd;
+.navBar a:hover {
+    background-color: rgb(110, 158, 167);
     color: black;
 }
 
-.topnav a.active {
-    background-color: rgb(150, 175, 151);
+.navBar a.active {
+    background-color: rgb(79, 140, 158);
     color: white;
-}  */
+}  

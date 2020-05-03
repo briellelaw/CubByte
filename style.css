@@ -7,9 +7,17 @@ body {
 
 .titlePage {
     position: relative;
+    width: 100%;
+}
+
+.gradientBear {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .tilePage .titleName {
+    z-index: 100;
     font-family: 'Roboto';
     font-size: 40px;
     position: abolute;
@@ -21,6 +29,7 @@ body {
 }
 
 h1 {
+    font-family: 'Roboto Mono';
     font-size: 5em;
     text-align: center;
     margin: 1;

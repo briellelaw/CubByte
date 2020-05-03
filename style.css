@@ -3,8 +3,11 @@
     flex-direction: column;
     background: linear-gradient(to bottom,rgb(138, 164, 168) 0%, white 50%, #ddd 50%, #ddd 100%);
 } */
-
+/* 
 #welcome {
+    background: rgb(138, 164, 168);
+} */
+body {
     background: rgb(138, 164, 168);
 }
 

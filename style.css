@@ -49,33 +49,45 @@ body {
 }
 
 
-.navBar {
-    background-color: rgb(255, 255, 255);
-    overflow: hidden;
+
+navBar {
     position: absolute;
     top: 800px;
-    left: 15%;
-    font-family: 'Roboto Mono';
-    font-weight: 600;
-    width: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    align-items: center;
+    min-height: 5vh;
+    background-color: white;
 }
 
-.navBar a {
-    float: left;
-    color: rgb(62, 64, 65);
-    text-align: center;
-    padding: 14px 30px;
-    text-decoration: none;
-    font-size: 17px;
+navbar ul {
+    margin: 0;
+    padding: 0;
+}
 
+navBar li {
+    list-style-type: none;
+    float:left;
+}
+
+navBar a {
+    display: block;
+    padding: 30px;
+    color: rgb(25, 29, 31);
+    text-decoration: none;
+    font-family: 'Roboto Mono';
+    letter-spacing: 2px;
+    font-weight: 590;
+    font-size: 16px;
 }
   
-.navBar a:hover {
+navBar a:hover {
     background-color: rgb(235, 218, 162);
     color: black;
 }
 
-.navBar a.active {
+navBar a.active {
     background-color: rgb(79, 140, 158);
     color: white;
 }  
@@ -85,10 +97,90 @@ body {
     background: white;
 } */
 
+
+.burger {
+    display: none;
+}
+
+.burger div{
+    width: 18px;
+    height: 2px;
+    background-color: rgba(10, 9, 9, 0.897);
+    margin:3px;
+}
+
 #section1 {
     font-family: 'Roboto';
     font-size: 45px;
     left: 10%;
     position: absolute;
     top: 860px;
+}
+
+@media screen and (max-width:1036px) {
+    .nav-links {
+        width:35%
+    }
+    .navBar {
+        width: 85%;
+    }
+    #Tag {
+        position: absolute;
+        top:100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #Title{
+        position: absolute;
+        top:70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height:82vh;
+        top: 8vh;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li {
+        opacity:0;
+    }
+    .burger {
+        display: block;
+    }
+    .navBar {
+        position: absolute;
+        right: 0px;
+        height:82vh;
+        top: 8vh;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    #Title{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.nav-active{
+    transform: translateX(0%);
 }

@@ -1,14 +1,7 @@
-/* body {
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(to bottom,rgb(138, 164, 168) 0%, white 50%, #ddd 50%, #ddd 100%);
-} */
-/* 
-#welcome {
-    background: rgb(138, 164, 168);
-} */
 body {
     background: rgb(138, 164, 168);
+    margin-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .titlePage {
@@ -48,11 +41,21 @@ body {
     left: 60%;
 }
 
+#PageTitle {
+    position: absolute;
+    font-family: 'Courier New';
+    top: 380px;
+    left: 55%;
+    font-size: 90px;
+    letter-spacing: 18px;
+    color: rgb(235, 218, 162);
+    font-weight: 100;
+}
 
 
 navBar {
     position: absolute;
-    top: 800px;
+    top: 750px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
@@ -93,11 +96,6 @@ navBar a.active {
 }  
 
 
-/* #skeleton {
-    background: white;
-} */
-
-
 .burger {
     display: none;
 }
@@ -112,15 +110,59 @@ navBar a.active {
 #section1 {
     font-family: 'Roboto';
     font-size: 45px;
-    left: 10%;
+    /* left: 40%; */
+    /* position: absolute;
+    top: 800px; */
+}
+
+#section1Container {
     position: absolute;
-    top: 860px;
+    top: 800px;
+    left: 10%;
+}
+
+
+#computerCase {
+    position: absolute;
+    height: 370px;
+    width: auto;
+    transform: translate(-30%, 10%);
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+#motherboard {
+    position: absolute;
+    height: 500px;
+    width: auto;
+    transform: translate(60%, 10%)
+}
+
+#cpu {
+    position: absolute;
+    height: 220px;
+    width: auto;
+    transform: translate(40%, 20%);
+}
+
+#section2Container {
+    position: absolute;
+    top: 1300px;
+    left: 10%;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+#memory {
+    position: absolute;
+    height: 220px;
+    width: auto;
+    transform: translate(40%, 20%);
+    margin-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width:1036px) {
-    .nav-links {
-        width:35%
-    }
     .navBar {
         width: 85%;
     }
@@ -141,22 +183,6 @@ navBar a.active {
 @media screen and (max-width:768px) {
     body {
         overflow-x: hidden;
-    }
-    .nav-links {
-        position: absolute;
-        right: 0px;
-        height:82vh;
-        top: 8vh;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 30%;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
-    }
-    .nav-links li {
-        opacity:0;
     }
     .burger {
         display: block;
@@ -181,6 +207,3 @@ navBar a.active {
     }
 }
 
-.nav-active{
-    transform: translateX(0%);
-}

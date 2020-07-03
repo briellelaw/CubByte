@@ -7,4 +7,24 @@ const navSlide = () => {
     });
 }
 
+
+function moveTitle() {
+    var pos = 0;
+    var id = setInterval(frame, 2);
+    function frame() {
+        const title = document.getElementById('Title');
+        const tag = document.getElementById('Tag');
+        if (pos == 220) {
+            clearInterval(id);
+        } else {
+            pos++; 
+            tag.style.top = pos + 270 + "px";
+            title.style.top = pos + "px"; 
+             
+        }
+    }
+}
+
+window.onload = moveTitle();
 navSlide();
+// moveTitle();

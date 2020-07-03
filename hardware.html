@@ -2,12 +2,10 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <!-- <link href='https://fonts.googleapis.com/css?family=B612 Mono' rel='stylesheet'> -->
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
         <title>CubByte</title>
     </head>
-    <!-- <header><title>CubByte</title></header> -->
 
     <body>
         <div id="welcome">
@@ -19,61 +17,35 @@
             
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
+            <h1 id = "PageTitle">HARDWARE</h1>
+
             <navBar>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="hardware.html">Hardware</a></li>
+                    <li><a href="hardware.html" class="active">Hardware</a></li>
+                    <li><a href="software.html">Software</a></li>
                 </ul>
                 <div class="burger">
                     <div clase="line1"></div>
                     <div clase="line2"></div>
                     <div clase="line3"></div>
                 </div>
-            </nav>
-
-            <!-- <div class="navBar">
-                <a href="#home" class="active">Home</a>
-                <a href="#hardware">Hardware</a>
-                <a href="#software">Software</a>
-                <a href="#networking">Networking</a>
-                <a href="#cloud">Cloud</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div> -->
- 
+            </navBar>
         </div>
 
-        <!--
-        <nav>
-            <ul class="nav-links">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Hardware</a>
-                </li>
-            </ul>
-            <div class="burger">
-                <div clase="line1"></div>
-                <div clase="line2"></div>
-                <div clase="line3"></div>
-            </div>
-        </nav>
-
-        <div id="skeleton">
-            <h1 id="section1">The Skeleton</h1>
+        <div id="section1Container">
+            <h1 id="section1">The CPU</h1>
+            <img id="cpu" src="chip.png">
         </div>
-        -->
 
-        <script src="app.js"></script> 
+        <div id="section2Container">
+            <h1 id="section2">Memory</h1>
+            <img id="memory" src="ram.png">
+        </div>
+        
+        <script src="hardware.js"></script> 
 
     </body>
-
-    <!-- <body id="skeleton">
-        <h1 id="section1">The Skeleton</h1>
-    </body> -->
-
 
 </html>
 

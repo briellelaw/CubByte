@@ -121,6 +121,18 @@ navBar a.active {
     left: 10%;
 }
 
+#section2 {
+    font-family: 'Roboto Mono';
+    font-size: 30px;
+    /* left: 40%; */
+    /* position: absolute;
+    top: 800px; */
+}
+
+#text {
+    font-family: 'Roboto Mono';
+    font-size:15px
+}
 
 #computerCase {
     position: absolute;

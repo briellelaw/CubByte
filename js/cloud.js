@@ -40,15 +40,15 @@ function moveTitleSmall() {
 }
 
 document.addEventListener("DOMContentLoaded", function(event) { 
-    // if (document.referrer === 'https://briellelaw.github.io/CubByte/index.html') {
-    console.log(urlTemp + 'software.html');
-    console.log(document.referrer);
-    if (document.referrer === 'http://127.0.0.1:5500/index.html') {
+    if (document.referrer === 'https://briellelaw.github.io/CubByte/index.html') {
+    // console.log(urlTemp + 'software.html');
+    // console.log(document.referrer);
+    // if (document.referrer === 'http://127.0.0.1:5500/index.html') {
         moveTitle();
     }
-    else if (document.referrer === urlTemp + 'html/software.html' ||
-             document.referrer === urlTemp + 'html/hardware.html' ||
-             document.referrer === urlTemp + 'html/databases.html') {
+    else if (document.referrer === url + 'html/software.html' ||
+             document.referrer === url + 'html/hardware.html' ||
+             document.referrer === url + 'html/databases.html') {
         moveTitleSmall();
     }
     else {

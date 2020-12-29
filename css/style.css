@@ -10,12 +10,13 @@ body {
     height: 600px;
 }
 
-#gradientBear {
-    background: url("finalBear.png") rbg(0,0,0,0);
+.gradientBear {
     position: relative;
     display: block;
-    top: 50px;
-    left: 0;
+    top: 100px;
+    left: 110px;
+    width: 750px;
+    height: auto;
 }
 
 
@@ -24,12 +25,11 @@ body {
 }
 
 #Title {
-    z-index: 100;
     position: absolute;
     font-family: 'Roboto';
     font-size: 160px;
-    top: 210px;
-    left: 50%;
+    top: 0px;
+    left: 48%;
 }
 
 #Tag {
@@ -37,16 +37,16 @@ body {
     position: absolute;
     font-family: 'Roboto Mono';
     font-size: 30px;
-    top: 480px;
-    left: 60%;
+    top: 45%;
+    left: 58%;
 }
 
 #PageTitle {
     position: absolute;
     font-family: 'Courier New';
-    top: 380px;
-    left: 55%;
-    font-size: 90px;
+    top: 38%;
+    left: 52%;
+    font-size: 70px;
     letter-spacing: 18px;
     color: rgb(235, 218, 162);
     font-weight: 100;
@@ -55,7 +55,7 @@ body {
 
 navBar {
     position: absolute;
-    top: 750px;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
@@ -117,7 +117,7 @@ navBar a.active {
 
 #section1Container {
     position: absolute;
-    top: 800px;
+    top: 75%;
     left: 10%;
 }
 

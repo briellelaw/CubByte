@@ -52,6 +52,14 @@ body {
     font-weight: 100;
 }
 
+#sectionTitleRight{
+    transform: translate(290%, 90%);
+    font-family: 'Courier New';
+    font-size: 40px;
+    letter-spacing: 18px;
+    color: rgb(235, 218, 162);
+    font-weight: 100;
+}
 
 navBar {
     position: absolute;
@@ -132,6 +140,11 @@ navBar a.active {
 #text {
     font-family: 'Roboto Mono';
     font-size:15px
+}
+
+#hardwareDiagram{
+    position: absolute;
+    transform: translate(10%, 10%);
 }
 
 #computerCase {

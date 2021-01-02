@@ -4,9 +4,9 @@ body {
     /* padding-bottom: 1000px; */
 }
 
-.homepage {
-    background: rgb(138, 164, 168);
-    margin: 20px;
+.titlePage {
+    position: absolute;
+    width: 100%;
 }
 
 .row {
@@ -14,6 +14,26 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    height: 580px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.row-thin {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.row-auto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
 }
   
 .column {
@@ -22,14 +42,14 @@ body {
     flex-basis: 100%;
     flex: 1;
 }
-  
 
-.titlePage {
-    position: absolute;
-    width: 100%;
-    height: 600px;
+.col2 {
+    width:48%;
+    float:left;
+    height:100%;
+    margin-right:2%;    
 }
-
+  
 .gradientBear {
     position: relative;
     display: block;
@@ -43,16 +63,9 @@ body {
     color: rgb(240, 247, 241);
 }
 
-.hardwareContainer {
-    width:100%;
-    height:900px;
-}
-
 navBar {
     position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(13%, 0%);
     width: 80%;
     align-items: center;
     min-height: 5vh;
@@ -90,7 +103,6 @@ navBar a.active {
     color: white;
 }  
 
-
 .burger {
     display: none;
 }
@@ -102,22 +114,18 @@ navBar a.active {
     margin:3px;
 }
 
-
 #Title {
     position: absolute;
     font-family: 'Roboto';
     font-size: 160px;
-    top: 0px;
-    left: 48%;
+    transform: translate(0%, 20%);
 }
 
 #Tag {
-    z-index: 100;
     position: absolute;
     font-family: 'Roboto Mono';
     font-size: 30px;
-    top: 45%;
-    left: 54%;
+    transform: translate(23%, 70%);
 }
 
 #PageTitle {
@@ -132,7 +140,8 @@ navBar a.active {
 }
 
 #sectionTitleRight{
-    transform: translate(270%, 90%);
+    position: absolute;
+    transform: translate(0%, 20%);
     font-family: 'Courier New';
     font-size: 40px;
     letter-spacing: 18px;
@@ -141,63 +150,43 @@ navBar a.active {
 }
 
 #sectionTitleLeft{
-    transform: translate(50%, 1450%);
+    transform: translate(70%, 20%);
     font-family: 'Courier New';
     font-size: 40px;
     letter-spacing: 18px;
     color: rgb(235, 218, 162);
     font-weight: 100;
 }
-#section1 {
+
+#leftDiagram{
+    position: absolute;
+    transform: translate(30%, 5%);
+}
+
+#rightDiagram{
+    position: absolute;
+    transform: translate(35%, 5%);
+    padding-bottom: 90px;
+}
+
+#subsectionTitle{
     font-family: 'Roboto';
     font-size: 45px;
-    /* left: 40%; */
-    /* position: absolute;
-    top: 800px; */
+}
+
+#subtitle{
+    font-family: 'Roboto';
+    font-size: 30px;
 }
 
 #section1Container {
     position: absolute;
-    top: 80%;
     left: 10%;
-}
-
-#section2 {
-    font-family: 'Roboto Mono';
-    font-size: 30px;
-    /* left: 40%; */
-    /* position: absolute;
-    top: 800px; */
 }
 
 #text {
     font-family: 'Roboto Mono';
-    font-size:15px
-}
-
-#hardwareDiagram{
-    position: absolute;
-    transform: translate(10%, 10%);
-}
-
-#softwareDiagram{
-    position: absolute;
-    transform: translate(170%, 100%);
-    padding-bottom: 90px;
-}
-
-#systemsDiagram{
-    position: absolute;
-    transform: translate(10%, 190%);
-    padding-bottom: 90px;
-}
-
-#section2Container {
-    position: absolute;
-    top: 1300px;
-    left: 10%;
-    font-family: 'Roboto';
-    font-size: 20px;
+    font-size: 15px;
 }
 
 @media screen and (max-width:1036px) {

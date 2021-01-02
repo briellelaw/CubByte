@@ -2,61 +2,72 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/style.css">
-        <!-- <link href='https://fonts.googleapis.com/css?family=B612 Mono' rel='stylesheet'> -->
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
         <title>CubByte</title>
     </head>
-    <!-- <header><title>CubByte</title></header> -->
 
     <body>
         <div class="titlePage" \>
-            <img class="gradientBear" src="images/finalBear.png">
-            <h1 id="Title"><span class="titleColour">Cub</span>Byte</h1>
-            <h4 id="Tag">Computer . User . Basics</h4>
-        </div>    
-        
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-        <navBar>
-            <ul id="navList">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="html/hardware.html">Hardware</a></li>
-                <li><a href="html/software.html">Software</a></li>
-                <li><a href="html/systems.html">Systems</a></li>
-                <li><a href="html/networking.html">Networking</a></li>
-                <li><a href="html/databases.html">Databases</a></li>
-                <li><a href="html/cloud.html">Cloud</a></li>
-            </ul>
-            <div class="burger">
-                <div clase="line1"></div>
-                <div clase="line2"></div>
-                <div clase="line3"></div>
-                <div clase="line4"></div>
-                <div clase="line5"></div>
+            <div class="row" \>
+                <div class="column" \>
+                    <img class="gradientBear" src="images/finalBear.png">
+                </div>
+                <div class="column" \>
+                    <h1 id="Title"><span class="titleColour">Cub</span>Byte</h1>
+                    <h4 id="Tag">Computer . User . Basics</h4>
+                </div>
             </div>
-        </navBar>
 
-        <!-- <div class="hardwareContainer" \> -->
-            <!-- <h1 id="section1">Sections Overview</h1> -->
-            <!-- <img id="hardwareDiagram" src="images/HardwareDiagram.png"> -->
-        <!-- </div> -->
+            <div class="row-thin" \>
+                <navBar>
+                    <ul id="navList">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="html/hardware.html">Hardware</a></li>
+                        <li><a href="html/software.html">Software</a></li>
+                        <li><a href="html/systems.html">Systems</a></li>
+                        <li><a href="html/networking.html">Networking</a></li>
+                        <li><a href="html/databases.html">Databases</a></li>
+                        <li><a href="html/cloud.html">Cloud</a></li>
+                    </ul>
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div clas="line3"></div>
+                        <div class="line4"></div>
+                        <div class="line5"></div>
+                    </div>
+                </navBar>
+            </div>
 
-        <div id="section1Container">
-            <h1 id="section1">Sections Overview</h1>
-            <img id="hardwareDiagram" src="images/HardwareDiagram.png">
-            <h2 id="sectionTitleRight">HARDWARE</h1>
-            <img id="softwareDiagram" src="images/softwareDiagram.png">
-            <h2 id="sectionTitleLeft">SOFTWARE</h1>
-            <img id="systemsDiagram" src="images/systemsDiagram.png">
-            <!-- <h2 id="sectionTitleRight">SYSTEMS</h1> -->
-            <!-- <img id="monitor" src="monitor-transparent.png"> -->
-            <!-- <img id="computerCase" src="images/computerCase2.png"> -->
-            <!-- <img id="motherboard" src="motherboard-transparent.png"> -->
-        </div>
-
-        <script src="app.js"></script> 
-
+            <div class="row" \>
+                <div class="col2" \>
+                    <img id="leftDiagram" src="images/HardwareDiagram.png">
+                </div>
+                <div class="col2" \>
+                    <h2 id="sectionTitleRight">HARDWARE</h1>
+                </div>
+            </div>
+            <div class="row" \>
+                <div class="col2" \>
+                    <h2 id="sectionTitleLeft">SOFTWARE</h1>
+                </div>
+                <div class="col2" \>
+                    <img id="rightDiagram" src="images/softwareDiagram.png">
+                </div>
+            </div>
+            <div class="row" \>
+                <div class="col2" \>
+                    <img id="leftDiagram" src="images/systemsDiagram.png">
+                </div>
+                <div class="col2" \>
+                    <h2 id="sectionTitleRight">SYSTEMS</h1>
+                </div>
+            </div>
+        
+            <script src="app.js"></script> 
+        </div>    
+            
     </body>
 </html>
 

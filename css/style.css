@@ -1,8 +1,28 @@
 body {
     background: rgb(138, 164, 168);
-    margin-bottom: 50px;
-    padding-bottom: 20px;
+    margin-bottom: 2000px;
+    /* padding-bottom: 1000px; */
 }
+
+.homepage {
+    background: rgb(138, 164, 168);
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+  
 
 .titlePage {
     position: absolute;
@@ -19,56 +39,15 @@ body {
     height: auto;
 }
 
-
 .titleColour {
     color: rgb(240, 247, 241);
 }
 
-#Title {
-    position: absolute;
-    font-family: 'Roboto';
-    font-size: 160px;
-    top: 0px;
-    left: 48%;
+.hardwareContainer {
+    width:100%;
+    height:900px;
 }
 
-#Tag {
-    z-index: 100;
-    position: absolute;
-    font-family: 'Roboto Mono';
-    font-size: 30px;
-    top: 45%;
-    left: 54%;
-}
-
-#PageTitle {
-    position: absolute;
-    font-family: 'Courier New';
-    top: 38%;
-    left: 52%;
-    font-size: 70px;
-    letter-spacing: 18px;
-    color: rgb(235, 218, 162);
-    font-weight: 100;
-}
-
-#sectionTitleRight{
-    transform: translate(270%, 90%);
-    font-family: 'Courier New';
-    font-size: 40px;
-    letter-spacing: 18px;
-    color: rgb(235, 218, 162);
-    font-weight: 100;
-}
-
-#sectionTitleLeft{
-    transform: translate(50%, 1450%);
-    font-family: 'Courier New';
-    font-size: 40px;
-    letter-spacing: 18px;
-    color: rgb(235, 218, 162);
-    font-weight: 100;
-}
 navBar {
     position: absolute;
     top: 75%;
@@ -123,6 +102,52 @@ navBar a.active {
     margin:3px;
 }
 
+
+#Title {
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 160px;
+    top: 0px;
+    left: 48%;
+}
+
+#Tag {
+    z-index: 100;
+    position: absolute;
+    font-family: 'Roboto Mono';
+    font-size: 30px;
+    top: 45%;
+    left: 54%;
+}
+
+#PageTitle {
+    position: absolute;
+    font-family: 'Courier New';
+    top: 38%;
+    left: 52%;
+    font-size: 70px;
+    letter-spacing: 18px;
+    color: rgb(235, 218, 162);
+    font-weight: 100;
+}
+
+#sectionTitleRight{
+    transform: translate(270%, 90%);
+    font-family: 'Courier New';
+    font-size: 40px;
+    letter-spacing: 18px;
+    color: rgb(235, 218, 162);
+    font-weight: 100;
+}
+
+#sectionTitleLeft{
+    transform: translate(50%, 1450%);
+    font-family: 'Courier New';
+    font-size: 40px;
+    letter-spacing: 18px;
+    color: rgb(235, 218, 162);
+    font-weight: 100;
+}
 #section1 {
     font-family: 'Roboto';
     font-size: 45px;
@@ -161,27 +186,10 @@ navBar a.active {
     padding-bottom: 90px;
 }
 
-#computerCase {
+#systemsDiagram{
     position: absolute;
-    height: 370px;
-    width: auto;
-    transform: translate(-30%, 10%);
-    margin-bottom: 50px;
-    padding-bottom: 20px;
-}
-
-#motherboard {
-    position: absolute;
-    height: 500px;
-    width: auto;
-    transform: translate(60%, 10%)
-}
-
-#cpu {
-    position: absolute;
-    height: 220px;
-    width: auto;
-    transform: translate(40%, 20%);
+    transform: translate(10%, 190%);
+    padding-bottom: 90px;
 }
 
 #section2Container {
@@ -190,15 +198,6 @@ navBar a.active {
     left: 10%;
     font-family: 'Roboto';
     font-size: 20px;
-}
-
-#memory {
-    position: absolute;
-    height: 220px;
-    width: auto;
-    transform: translate(40%, 20%);
-    margin-bottom: 50px;
-    padding-bottom: 20px;
 }
 
 @media screen and (max-width:1036px) {

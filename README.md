@@ -1,6 +1,8 @@
 # CubByte
 
 ## Computer User Basics
+https://briellelaw.github.io/CubByte
+
 A website providing high-level and simplified explanations on all things computer.
 
 Concepts will range from hardware to software to computer networking to cloud computing... and much more !
